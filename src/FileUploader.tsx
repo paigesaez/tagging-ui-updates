@@ -184,7 +184,6 @@ export default function FileUploader() {
             value={currentForm.location}
             onChange={handleInputChange}
             className="form-select"
-            placeholder="Select the location"
             required
           >
             <option value="">Select the location</option>
@@ -228,7 +227,6 @@ export default function FileUploader() {
             value={currentForm.meetingBody}
             onChange={handleInputChange}
             className="form-select"
-            placeholder="Select the body"
             required
           >
             <option value="">Select the body</option>
@@ -249,7 +247,6 @@ export default function FileUploader() {
             value={currentForm.meetingType}
             onChange={handleInputChange}
             className="form-select"
-            placeholder="Select the type"
             required
           >
             <option value="">Select the type</option>
