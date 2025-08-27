@@ -27,8 +27,7 @@ const TAGS: Tag[] = [
   { chip: 'Transit Infrastructure', slug: 'transit-infra', topic: 'Transportation & Transit Infrastructure', family: 'Infrastructure & Utilities' },
 
   // Land Use & Development — Green
-  { chip: 'Housing', slug: 'housing', topic: 'Housing', family: 'Land Use & Development', existing: true },
-  { chip: 'Housing Policy', slug: 'housing-policy', topic: 'Housing Policy', family: 'Land Use & Development' },
+  { chip: 'Housing', slug: 'housing', topic: 'Housing Policy', family: 'Land Use & Development', existing: true },
   { chip: 'Housing Development', slug: 'housing-development', topic: 'Housing & Residential Development', family: 'Land Use & Development' },
   { chip: 'New Multifamily Housing', slug: 'new-multifamily-housing', topic: 'New Multifamily Housing', family: 'Land Use & Development', existing: true },
   { chip: 'Retail & Commercial Redevelopment', slug: 'retail-commercial', topic: 'Retail & Commercial Redevelopment', family: 'Land Use & Development' },
@@ -148,15 +147,15 @@ export default function TaggingUI() {
                     <div className="tag-group-label">Existing Topics</div>
                     <div className="chips">
                       {existingTags.map(t => (
-                        <div key={t.slug} className="chip-container">
+                        <div key={t.slug} className="chip-wrapper">
                           <div
                             className={`chip ${accented ? FAMILY_CLASS[t.family as Family] : ''} chip-existing`}
                             title={`Topic: ${t.topic || t.chip}\nSlug: ${t.slug}\nStatus: Existing`}
                           >
                             {t.chip}
                           </div>
-                          {t.topic && t.topic !== t.chip && (
-                            <span className="topic-label">({t.topic})</span>
+                          {t.topic && (
+                            <div className="topic-label">{t.topic}</div>
                           )}
                         </div>
                       ))}
@@ -168,15 +167,15 @@ export default function TaggingUI() {
                     <div className="tag-group-label">New Topics</div>
                     <div className="chips">
                       {newTags.map(t => (
-                        <div key={t.slug} className="chip-container">
+                        <div key={t.slug} className="chip-wrapper">
                           <div
                             className={`chip ${accented ? FAMILY_CLASS[t.family as Family] : ''} chip-new`}
                             title={`Topic: ${t.topic || t.chip}\nSlug: ${t.slug}\nStatus: New`}
                           >
                             {t.chip}
                           </div>
-                          {t.topic && t.topic !== t.chip && (
-                            <span className="topic-label">({t.topic})</span>
+                          {t.topic && (
+                            <div className="topic-label">{t.topic}</div>
                           )}
                         </div>
                       ))}
