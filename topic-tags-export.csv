@@ -1,0 +1,25 @@
+Category,Tag Name,Topic,Canonical Topic,Status
+Infrastructure & Utilities,Data Center,data-center,Datacenters,Existing
+Infrastructure & Utilities,Utilities,utilities,Utilities (Water Power Wastewater),New
+Infrastructure & Utilities,Water & Wastewater,water-wastewater,Water / Wastewater / Stormwater,New
+Infrastructure & Utilities,Waste & Recycling,waste-recycling,Waste & Recycling Facilities,New
+Infrastructure & Utilities,Renewable Energy,renewable-energy,Renewable Energy & Storage,New
+Infrastructure & Utilities,EV Infrastructure,ev-infrastructure,Electric-Vehicle Infrastructure,New
+Infrastructure & Utilities,Telecom / 5G,telecom-5g,Telecom – 5G Small-Cell Deployment,New
+Infrastructure & Utilities,Transit Infrastructure,transit-infra,Transportation & Transit Infrastructure,New
+Land Use & Development,Housing,housing,Housing Policy,Existing
+Land Use & Development,Housing Development,housing-development,Housing & Residential Development,New
+Land Use & Development,New Multifamily Housing,new-multifamily-housing,New Multifamily Housing,Existing
+Land Use & Development,Retail & Commercial Redevelopment,retail-commercial,Retail & Commercial Redevelopment,New
+Land Use & Development,Civic & Public Safety,civic-safety,Civic & Public-Safety Buildings,New
+Land Use & Development,Education Facilities,education-facilities,Education-Facility Capital Projects,New
+Land Use & Development,Senior Living,senior-living,Senior & Assisted-Living Projects,New
+Land Use & Development,Healthcare Facilities,healthcare,Healthcare & Life-Science Facilities,New
+Land Use & Development,Industrial Real Estate,industrial-real-estate,Industrial,Existing
+Land Use & Development,Zoning,zoning,Zoning Actions (with Subtypes),Existing
+Environmental & Cultural,Environmental & Climate Policy,climate-policy,Environmental & Climate Policy Actions,New
+Social & Community,Cannabis Licensing,cannabis,Cannabis Facilities & Licensing,New
+Social & Community,Short-Term Rentals,short-term-rentals,Hospitality & Short-Term-Rental Regulation,New
+Social & Community,Sports & Venues,sports-venues,"Sports, Entertainment & Cultural Venues",New
+Governance & Policy,Impact Fees,impact-fees,Impact Fees,Existing
+Governance & Policy,RFPs,rfps,Requests for Proposals (RFPs),New

@@ -110,11 +110,17 @@ export default function TaggingUI() {
             <div key={family} className="category-row">
               <div className="category-reference">
                 <div className="category-header-box">
-                  <div 
-                    className="category-title"
-                    style={{ color: `rgb(${styles.color})` }}
-                  >
+                  <div className="category-title">
                     {family}
+                  </div>
+                  <div className="color-info">
+                    <span 
+                      className="color-dot"
+                      style={{ backgroundColor: `rgb(${styles.color})` }}
+                    />
+                    <span className="color-hex">
+                      #{styles.color.split(', ').map(c => parseInt(c).toString(16).padStart(2, '0')).join('').toUpperCase()}
+                    </span>
                   </div>
                   <div className="category-styles-inline">
                     <div className="css-code-inline">

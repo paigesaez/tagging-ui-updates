@@ -229,6 +229,28 @@
     font-size: 20px;
     font-weight: 700;
     letter-spacing: -0.02em;
+    color: var(--text);
+  }
+  
+  .color-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .color-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .color-hex {
+    font-size: 13px;
+    font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+    color: var(--muted);
   }
 
   .select-all-btn {
