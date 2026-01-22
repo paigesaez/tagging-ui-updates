@@ -45,6 +45,7 @@ const TAGS: Tag[] = [
   { chip: 'Cannabis Licensing', slug: 'cannabis', topic: 'Cannabis Facilities & Licensing', family: 'Social & Community' },
   { chip: 'Short-Term Rentals', slug: 'short-term-rentals', topic: 'Hospitality & Short-Term-Rental Regulation', family: 'Social & Community' },
   { chip: 'Sports & Venues', slug: 'sports-venues', topic: 'Sports, Entertainment & Cultural Venues', family: 'Social & Community' },
+  { chip: 'Public Art', slug: 'public-art', topic: 'Public Art', family: 'Social & Community' },
 
   // Governance & Policy — Red
   { chip: 'Impact Fees', slug: 'impact-fees', topic: 'Impact Fees', family: 'Governance & Policy', existing: true },
